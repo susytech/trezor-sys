@@ -1,0 +1,11 @@
+[package]
+description = "Rust code generated from Trezor protocol buffers"
+homepage = "http://superstring.ch"
+repository = "https://github.com/susytech/trezor-sys"
+license = "MIT"
+name = "trezor-sys"
+version = "1.0.0"
+authors = ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"]
+
+[dependencies]
+protobuf = {version="1.4",registry="susytech"}
